@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/index'
+
+  get 'pages/edit'
+
+  get 'pages/new'
+
+  get 'pages/show'
+
   get 'students/new'
 
   get 'students/index'
